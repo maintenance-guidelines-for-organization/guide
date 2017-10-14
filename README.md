@@ -1,6 +1,6 @@
 # Maintenance Organization Guideline
 
-This guideline is for existing or new members of [**YOUR ORGANIZATION NAME**] organization.
+This guideline is for existing or new members of [[ORGANIZATION_NAME]] organization.
 
 This document show guide of procedures for adding packages, adding new member.
 
@@ -14,8 +14,8 @@ In order to minimize human bottlenecks, all members should be fully empowered to
 For some actions, it might be good to discuss with other members and the community about the best course of action.
 For other decisions, it might be better to take individual initiative.
 
-Instances of untrusted behavior may be reported by contacting the project team at [**INSERT EMAIL ADDRESS**]. 
-Untrusted behavior is defined in [**YOUR CODE OF CONDUCT LINK**].
+Instances of untrusted behavior may be reported by contacting the project team at [[INSERT_EMAIL_ADDRESS]]. 
+Untrusted behavior is defined in [[CODE_OF_CONDUCT_LINK]].
 
 All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident.
 
@@ -23,26 +23,26 @@ All complaints will be reviewed and investigated and will result in a response t
 
 New members should be added liberally.
 
-If you identify someone who is interested in the project, seems trustworthy, and agrees to the [**YOUR CODE OF CONDUCT LINK**], you can follow the steps below.
+If you identify someone who is interested in the project, seems trustworthy, and agrees to the [[CODE_OF_CONDUCT_LINK]], you can follow the steps below.
 
 ### GitHub
 
-1. Visit <https://github.com/orgs/[**YOUR ORGANIZATION NAME**]/people>
+1. Visit <https://github.com/orgs/[[ORGANIZATION_NAME]]/people>
 2. Click **Invite member**
 3. Type the username or email address of the person you want to invite and click Enter
 4. Set the radio button to **"Owner"**
 5. Send Invitation
 
-Reference: [Inviting users to join your organization - User Documentation](https://help.github.com/articles/inviting-users-to-join-your-organization/ "Inviting users to join your organization - User Documentation")
+Reference: [Inviting users to join your organization - User Documentation](https://help.github.com/articles/inviting-users-to-join-your-organization/)
 
 ### npm
 
-1. Visit <https://www.npmjs.com/org/[**YOUR ORGANIZATION NAME**]/members>
+1. Visit <https://www.npmjs.com/org/[[ORGANIZATION_NAME]]/members>
 2. Type the username or email address of the person you want to invite
 3. Set the radio button to **"Owner"**
 4. Click **add member**
 
-Reference: [Managing Members · npm Orgs Documentation](https://www.npmjs.com/docs/orgs/managing-members.html "Managing Members · npm Orgs Documentation")
+Reference: [Managing Members · npm Orgs Documentation](https://www.npmjs.com/docs/orgs/managing-members.html)
 
 ## For new member
 
@@ -54,21 +54,21 @@ Transfer your repository's ownership on github.
 
 1. Visit <https://github.com/$USER/$PROJECT/settings> (Your repository setting page)
 2. Click **Transfer** on Danger Zone
-3. Type [**YOUR ORGANIZATION NAME**]in the field labeled "New owner's github username or organization name"
-4. Click "I understance, transfer this repository" button
+3. Type [[ORGANIZATION_NAME]] in the field labeled "New owner's github username or ORGANIZATION_NAME"
+4. Click "I understand, transfer this repository" button
 
 ### npm
 
 Run this command, replacing `$PKGNAME` with the name of the package on npm:
 
 ```shell-session
-npm access grant read-write [**YOUR ORGANIZATION NAME**]:developers $PKGNAME
+npm access grant read-write [[ORGANIZATION_NAME]]:developers $PKGNAME
 ```
 
 OR
 
-1. Visit <https://www.npmjs.com/org/[**YOUR ORGANIZATION NAME**]/team/developers/add-package>
-2. Select your pacakge name in **Populate from personal packages**
+1. Visit <https://www.npmjs.com/org/[[ORGANIZATION_NAME]]/team/developers/add-package>
+2. Select your package name in **Populate from personal packages**
 3. Click **make it so**
 
 ## License
