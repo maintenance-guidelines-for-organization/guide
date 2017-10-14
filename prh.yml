@@ -1,0 +1,4 @@
+version: 1
+rules:
+  - expected: GitHub
+    prh: github should be GitHub

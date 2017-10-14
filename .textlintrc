@@ -3,6 +3,9 @@
     "comments": true
   },
   "rules": {
+    "prh": {
+      "rulePaths": ["./prh.yml"]
+    },
     "abbr-within-parentheses": true,
     "common-misspellings": true,
     "period-in-list-item": {

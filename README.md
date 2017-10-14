@@ -50,11 +50,11 @@ To add a package to the organization, you can follow the steps below.
 
 ### GitHub
 
-Transfer your repository's ownership on github.
+Transfer your repository's ownership on GitHub.
 
 1. Visit <https://github.com/$USER/$PROJECT/settings> (Your repository setting page)
 2. Click **Transfer** on Danger Zone
-3. Type [[ORGANIZATION_NAME]] in the field labeled "New owner's github username or ORGANIZATION_NAME"
+3. Type [[ORGANIZATION_NAME]] in the field labeled "New owner's GitHub username or ORGANIZATION_NAME"
 4. Click "I understand, transfer this repository" button
 
 Reference: [About repository transfers - User Documentation](https://help.github.com/articles/about-repository-transfers/)

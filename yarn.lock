@@ -199,6 +199,10 @@ collapse-white-space@^1.0.2:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/collapse-white-space/-/collapse-white-space-1.0.3.tgz#4b906f670e5a963a87b76b0e1689643341b6023c"
 
+commandpost@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/commandpost/-/commandpost-1.2.1.tgz#2e9c4c7508b9dc704afefaa91cab92ee6054cc68"
+
 concat-map@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
@@ -259,6 +263,10 @@ del@^2.0.2:
 diff@^2.2.2:
   version "2.2.3"
   resolved "https://registry.yarnpkg.com/diff/-/diff-2.2.3.tgz#60eafd0d28ee906e4e8ff0a52c1229521033bf99"
+
+diff@^3.3.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/diff/-/diff-3.4.0.tgz#b1d85507daf3964828de54b37d0d73ba67dda56c"
 
 emoji-regex@^6.4.1:
   version "6.5.1"
@@ -525,7 +533,7 @@ isarray@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/isarray/-/isarray-1.0.0.tgz#bb935d48582cba168c06834957a54a3e07124f11"
 
-js-yaml@^3.2.4, js-yaml@^3.6.1:
+js-yaml@^3.2.4, js-yaml@^3.6.1, js-yaml@^3.9.1:
   version "3.10.0"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.10.0.tgz#2e78441646bd4682e963f22b6e92823c309c62dc"
   dependencies:
@@ -756,6 +764,14 @@ pluralize@^2.0.0:
 prelude-ls@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
+
+prh@^5.4.3:
+  version "5.4.3"
+  resolved "https://registry.yarnpkg.com/prh/-/prh-5.4.3.tgz#d3864a6de2f35c6603e33c700106dce01c22876d"
+  dependencies:
+    commandpost "^1.2.1"
+    diff "^3.3.0"
+    js-yaml "^3.9.1"
 
 process-nextick-args@~1.0.6:
   version "1.0.7"
@@ -1041,12 +1057,26 @@ textlint-rule-helper@^1.1.5:
   dependencies:
     unist-util-visit "^1.1.0"
 
+textlint-rule-helper@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/textlint-rule-helper/-/textlint-rule-helper-2.0.0.tgz#95cb4696c95c4258d2e3389e9e64b849f9721382"
+  dependencies:
+    unist-util-visit "^1.1.0"
+
 textlint-rule-period-in-list-item@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/textlint-rule-period-in-list-item/-/textlint-rule-period-in-list-item-0.2.0.tgz#e09da271c5c4e57301f98f2da607c51afbd15ed3"
   dependencies:
     check-ends-with-period "^1.0.1"
     unist-util-select "^1.5.0"
+
+textlint-rule-prh@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/textlint-rule-prh/-/textlint-rule-prh-5.0.1.tgz#bab66be6b03258880f3fbf466b689ed2ff379b0c"
+  dependencies:
+    prh "^5.4.3"
+    textlint-rule-helper "^2.0.0"
+    untildify "^3.0.2"
 
 textlint@^8.2.1:
   version "8.2.1"
@@ -1176,6 +1206,10 @@ unist-util-stringify-position@^1.0.0:
 unist-util-visit@^1.1.0:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/unist-util-visit/-/unist-util-visit-1.1.3.tgz#ec268e731b9d277a79a5b5aa0643990e405d600b"
+
+untildify@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/untildify/-/untildify-3.0.2.tgz#7f1f302055b3fea0f3e81dc78eb36766cb65e3f1"
 
 util-deprecate@~1.0.1:
   version "1.0.2"
