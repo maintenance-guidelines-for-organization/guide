@@ -19,9 +19,9 @@ Untrusted behavior is defined in [[CODE_OF_CONDUCT_LINK]].
 
 All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident.
 
-## For Maintainer
+## For maintainer
 
-New members should be added liberally.
+Maintainer can add new members to the project liberally.
 
 If you identify someone who is interested in the project, seems trustworthy, and agrees to the [[CODE_OF_CONDUCT_LINK]], you can follow the steps below.
 
