@@ -70,8 +70,8 @@ npm access grant read-write [[ORGANIZATION_NAME]]:developers $PKGNAME
 OR
 
 1. Visit <https://www.npmjs.com/org/[[ORGANIZATION_NAME]]/team/developers/add-package>
-2. Select your package name in **Populate from personal packages**
-3. Click "make it so" button
+2. Select your package name in "Populate from personal packages"
+3. Click **make it so** button
 
 Reference: [Managing Package Access · npm Orgs Documentation](https://www.npmjs.com/docs/orgs/managing-package-access.html)
 
