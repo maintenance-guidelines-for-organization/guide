@@ -1,0 +1,13 @@
+{
+  "filters": {
+    "comments": true
+  },
+  "rules": {
+    "abbr-within-parentheses": true,
+    "common-misspellings": true,
+    "period-in-list-item": {
+      "periodMark": "",
+      "forceAppendPeriod": false
+    }
+  }
+}
