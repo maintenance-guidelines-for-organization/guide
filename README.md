@@ -57,6 +57,8 @@ Transfer your repository's ownership on github.
 3. Type [[ORGANIZATION_NAME]] in the field labeled "New owner's github username or ORGANIZATION_NAME"
 4. Click "I understand, transfer this repository" button
 
+Reference: [About repository transfers - User Documentation](https://help.github.com/articles/about-repository-transfers/)
+
 ### npm
 
 Run this command, replacing `$PKGNAME` with the name of the package on npm:
@@ -70,6 +72,8 @@ OR
 1. Visit <https://www.npmjs.com/org/[[ORGANIZATION_NAME]]/team/developers/add-package>
 2. Select your package name in **Populate from personal packages**
 3. Click **make it so**
+
+Reference: [Managing Package Access · npm Orgs Documentation](https://www.npmjs.com/docs/orgs/managing-package-access.html)
 
 ## License
 
