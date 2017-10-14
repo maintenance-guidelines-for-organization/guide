@@ -1,6 +1,6 @@
-# Maintenance Organization Guideline
+# Maintenance Guidelines for Organization
 
-This guideline is for existing or new members of [[ORGANIZATION_NAME]] organization.
+This guideline is for existing or new members of [[GITHUB_ORGANIZATION_NAME]] organization.
 
 This document show guide of procedures for adding packages, adding new member.
 
@@ -27,22 +27,22 @@ If you identify someone who is interested in the project, seems trustworthy, and
 
 ### GitHub
 
-1. Visit <https://github.com/orgs/[[ORGANIZATION_NAME]]/people>
+1. Visit <https://github.com/orgs/[[GITHUB_ORGANIZATION_NAME]]/people>
 2. Click **Invite member**
 3. Type the username or email address of the person you want to invite and click Enter
 4. Set the radio button to **"Owner"**
 5. Send Invitation
 
-Reference: [Inviting users to join your organization - User Documentation](https://help.github.com/articles/inviting-users-to-join-your-organization/)
+For more infromation, see [Inviting users to join your organization - User Documentation](https://help.github.com/articles/inviting-users-to-join-your-organization/)
 
 ### npm
 
-1. Visit <https://www.npmjs.com/org/[[ORGANIZATION_NAME]]/members>
+1. Visit <https://www.npmjs.com/org/[[NPM_ORGANIZATION_NAME]]/members>
 2. Type the username or email address of the person you want to invite
 3. Set the radio button to **"Owner"**
 4. Click **add member**
 
-Reference: [Managing Members · npm Orgs Documentation](https://www.npmjs.com/docs/orgs/managing-members.html)
+For more infromation, see [Managing Members · npm Orgs Documentation](https://www.npmjs.com/docs/orgs/managing-members.html)
 
 ## For new member
 
@@ -54,26 +54,26 @@ Transfer your repository's ownership on GitHub.
 
 1. Visit <https://github.com/$USER/$PROJECT/settings> (Your repository setting page)
 2. Click **Transfer** on Danger Zone
-3. Type [[ORGANIZATION_NAME]] in the field labeled "New owner's GitHub username or ORGANIZATION_NAME"
+3. Type [[GITHUB_ORGANIZATION_NAME]] in the field labeled "New owner's GitHub username or organization name"
 4. Click "I understand, transfer this repository" button
 
-Reference: [About repository transfers - User Documentation](https://help.github.com/articles/about-repository-transfers/)
+For more infromation, see [About repository transfers - User Documentation](https://help.github.com/articles/about-repository-transfers/)
 
 ### npm
 
 Run this command, replacing `$PKGNAME` with the name of the package on npm:
 
 ```shell-session
-npm access grant read-write [[ORGANIZATION_NAME]]:developers $PKGNAME
+npm access grant read-write [[NPM_ORGANIZATION_NAME]]:developers $PKGNAME
 ```
 
 OR
 
-1. Visit <https://www.npmjs.com/org/[[ORGANIZATION_NAME]]/team/developers/add-package>
+1. Visit <https://www.npmjs.com/org/[[NPM_ORGANIZATION_NAME]]/team/developers/add-package>
 2. Select your package name in "Populate from personal packages"
 3. Click **make it so** button
 
-Reference: [Managing Package Access · npm Orgs Documentation](https://www.npmjs.com/docs/orgs/managing-package-access.html)
+For more infromation, see [Managing Package Access · npm Orgs Documentation](https://www.npmjs.com/docs/orgs/managing-package-access.html)
 
 ## License
 
