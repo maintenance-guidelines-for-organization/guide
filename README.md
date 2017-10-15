@@ -1,84 +1,45 @@
 # Maintenance Guidelines for Organization
 
-This guideline is for existing or new members of [[GITHUB_ORGANIZATION_NAME]] organization.
+This guideline aim to avoid stopping the project by human bottlenecks.
 
-This document show guide of procedures for adding packages, adding new member.
+## Project Home Page
 
-## Principles
+For an overview and usage instructions, please visit <https://maintenance-guidelines-for-organization.github.io>
 
-- To avoid human bottlenecks
-- To trust people to do the right thing until proven otherwise
+## What is this?
 
-In order to minimize human bottlenecks, all members should be fully empowered to do everything that might be necessary to handle administration of the project.
+You might have seen the deprecated message like **This project is no longer maintained**.
+You can fork the project, but you can not publish the pacakge to registry like [npm](https://www.npmjs.com/) with the same name.
+Because, you have not the ownership of the project.
 
-For some actions, it might be good to discuss with other members and the community about the best course of action.
-For other decisions, it might be better to take individual initiative.
+To share ownership of the project, make you and original maintainer better.
+The ownership is that access to the repository and access to the registry.
 
-Instances of untrusted behavior may be reported by contacting the project team at [[INSERT_EMAIL_ADDRESS]]. 
-Untrusted behavior is defined in [Code of Conduct][].
+In popular library, **no longer maintained project** is increased.
+Because, most popular library has plugin system that structure a ecosystem.
+As a result, number of project is increased and stopped project is also incresed.
 
-All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident.
+To share ownership of the ecosystem, the library should have an organization.
 
-## For maintainer
+This guideline show procedures for adding packages, adding new member to the oranization.
 
-Maintainer can add new members to the project liberally.
+**Related lesson**:
 
-If you identify someone who is interested in the project, seems trustworthy, and agrees to the [Code of Conduct][], you can follow the steps below.
+- [Share ownership of your project](https://opensource.guide/building-community/#share-ownership-of-your-project "Share ownership of your project")
+- [The Pull Request Hack - Felix Geisendörfer](http://felixge.de/2013/03/11/the-pull-request-hack.html "The Pull Request Hack - Felix Geisendörfer")
 
-### GitHub
+## Contributing
 
-1. Visit <https://github.com/orgs/[[GITHUB_ORGANIZATION_NAME]]/people>
-2. Click **Invite member**
-3. Type the username or email address of the person you want to invite and click Enter
-4. Set the radio button to **"Owner"**
-5. Send Invitation
+Please feel free to submit pull requests or open issues to improve this project.
 
-For more infromation, see [Inviting users to join your organization - User Documentation](https://help.github.com/articles/inviting-users-to-join-your-organization/)
+Translation and Pull Request welcome!
 
-### npm
+For more details, see [CONTRIBUTING.md](./.github/CONTRIBUTING.md)
 
-1. Visit <https://www.npmjs.com/org/[[NPM_ORGANIZATION_NAME]]/members>
-2. Type the username or email address of the person you want to invite
-3. Set the radio button to **"Owner"**
-4. Click **add member**
-
-For more infromation, see [Managing Members · npm Orgs Documentation](https://www.npmjs.com/docs/orgs/managing-members.html)
-
-## For new member
-
-To add a package to the organization, you can follow the steps below.
-
-### GitHub
-
-Transfer your repository's ownership on GitHub.
-
-1. Visit <https://github.com/$USER/$PROJECT/settings> (Your repository setting page)
-2. Click **Transfer** on Danger Zone
-3. Type [[GITHUB_ORGANIZATION_NAME]] in the field labeled "New owner's GitHub username or organization name"
-4. Click "I understand, transfer this repository" button
-
-For more infromation, see [About repository transfers - User Documentation](https://help.github.com/articles/about-repository-transfers/)
-
-### npm
-
-Run this command, replacing `$PKGNAME` with the name of the package on npm:
-
-```shell-session
-npm access grant read-write [[NPM_ORGANIZATION_NAME]]:developers $PKGNAME
-```
-
-OR
-
-1. Visit <https://www.npmjs.com/org/[[NPM_ORGANIZATION_NAME]]/team/developers/add-package>
-2. Select your package name in "Populate from personal packages"
-3. Click **make it so** button
-
-For more infromation, see [Managing Package Access · npm Orgs Documentation](https://www.npmjs.com/docs/orgs/managing-package-access.html)
-
-## Attribution
-
-This Guideline is adapted from the [Maintenance Guidelines for Organization](https://maintenance-guidelines-for-organization.github.io/).
+## License
 
 This Guideline is available under Creative Commons Attribution 4.0 International Public License([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)).
 
-[Code of Conduct]: [[CODE_OF_CONDUCT_LINK]]
+## Acknowledgements
+
+This guideline is based on [browserify/admin](https://github.com/browserify/admin) and [Contributor Covenant](https://www.contributor-covenant.org/).
