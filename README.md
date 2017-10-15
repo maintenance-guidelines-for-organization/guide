@@ -75,6 +75,8 @@ OR
 
 For more infromation, see [Managing Package Access · npm Orgs Documentation](https://www.npmjs.com/docs/orgs/managing-package-access.html)
 
-## License
+## Attribution
 
-Creative Commons Attribution 4.0 International Public License([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))
+This Guideline is adapted from the [Maintenance Guidelines for Organization](https://maintenance-guidelines-for-organization.github.io/).
+
+This Guideline is available under Creative Commons Attribution 4.0 International Public License([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)).
