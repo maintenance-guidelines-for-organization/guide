@@ -15,7 +15,7 @@ For some actions, it might be good to discuss with other members and the communi
 For other decisions, it might be better to take individual initiative.
 
 Instances of untrusted behavior may be reported by contacting the project team at [[INSERT_EMAIL_ADDRESS]]. 
-Untrusted behavior is defined in [Code of Conduct](CODE_OF_CONDUCT_LINK).
+Untrusted behavior is defined in [Code of Conduct][].
 
 All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident.
 
@@ -23,7 +23,7 @@ All complaints will be reviewed and investigated and will result in a response t
 
 Maintainer can add new members to the project liberally.
 
-If you identify someone who is interested in the project, seems trustworthy, and agrees to the [Code of Conduct](CODE_OF_CONDUCT_LINK), you can follow the steps below.
+If you identify someone who is interested in the project, seems trustworthy, and agrees to the [Code of Conduct][], you can follow the steps below.
 
 ### GitHub
 
@@ -80,3 +80,5 @@ For more infromation, see [Managing Package Access · npm Orgs Documentation](ht
 This Guideline is adapted from the [Maintenance Guidelines for Organization](https://maintenance-guidelines-for-organization.github.io/).
 
 This Guideline is available under Creative Commons Attribution 4.0 International Public License([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)).
+
+[Code of Conduct]: [[CODE_OF_CONDUCT_LINK]]
