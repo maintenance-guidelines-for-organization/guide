@@ -29,7 +29,7 @@
 1. [https://github.com/orgs/[[GITHUB_ORGANIZATION_NAME]]/people](https://github.com/orgs/%5B%5BGITHUB_ORGANIZATION_NAME%5D%5D/people) を開く
 2. **Invite member**をクリック
 3. 招待したいメンバーのユーザ名またはEmailを入力
-4. **"Owner"**を選択
+4. "**Owner**"を選択
 5. Send Invitationする
 
 詳細は [Inviting users to join your organization - User Documentation](https://help.github.com/articles/inviting-users-to-join-your-organization/) を参照してください。
@@ -38,7 +38,7 @@
 
 1. [https://www.npmjs.com/org/[[NPM_ORGANIZATION_NAME]]/members](https://www.npmjs.com/org/%5B%5BNPM_ORGANIZATION_NAME%5D%5D/members)を開く
 2. 招待したいメンバーのユーザ名またはEmailを入力
-3. **"Owner"**を選択
+3. "**Owner**"を選択
 4. **add member**をクリック
 
 詳細は [Managing Members · npm Orgs Documentation](https://www.npmjs.com/docs/orgs/managing-members.html) を参照してください。
@@ -49,7 +49,7 @@ Organizationへパッケージを追加するには、次の手順で追加で�
 
 ### GitHub
 
-あなたのリポジトリのownershipを移譲する手順。
+Organizationへパッケージを追加するには、次の手順で追加できます。
 
 1. [https://github.com/$USER/$PROJECT/settings](https://github.com/%24USER/%24PROJECT/settings) (リポジトリの設定ページ) を開く
 2. **Transfer** をクリック
