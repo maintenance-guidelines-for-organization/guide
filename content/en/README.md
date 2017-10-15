@@ -30,7 +30,7 @@ If you identify someone who is interested in the project, seems trustworthy, and
 1. Visit <https://github.com/orgs/[[GITHUB_ORGANIZATION_NAME]]/people>
 2. Click **Invite member**
 3. Type the username or email address of the person you want to invite and click Enter
-4. Set the radio button to **"Owner"**
+4. Set the radio button to "**Owner**"
 5. Send Invitation
 
 For more infromation, see [Inviting users to join your organization - User Documentation](https://help.github.com/articles/inviting-users-to-join-your-organization/)
@@ -39,7 +39,7 @@ For more infromation, see [Inviting users to join your organization - User Docum
 
 1. Visit <https://www.npmjs.com/org/[[NPM_ORGANIZATION_NAME]]/members>
 2. Type the username or email address of the person you want to invite
-3. Set the radio button to **"Owner"**
+3. Set the radio button to "**Owner**"
 4. Click **add member**
 
 For more infromation, see [Managing Members · npm Orgs Documentation](https://www.npmjs.com/docs/orgs/managing-members.html)
@@ -50,7 +50,7 @@ To add a package to the organization, you can follow the steps below.
 
 ### GitHub
 
-Transfer your repository's ownership on GitHub.
+Transfer your repository's ownership to the organization.
 
 1. Visit <https://github.com/$USER/$PROJECT/settings> (Your repository setting page)
 2. Click **Transfer** on Danger Zone

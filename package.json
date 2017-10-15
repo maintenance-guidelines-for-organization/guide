@@ -4,8 +4,8 @@
   "license": "MIT",
   "scripts": {
     "test": "npm run textlint",
-    "textlint": "textlint README.md",
-    "textlint:fix": "textlint --fix README.md"
+    "textlint": "textlint content/en/",
+    "textlint:fix": "textlint --fix content/en/"
   },
   "devDependencies": {
     "textlint": "^8.2.1",
