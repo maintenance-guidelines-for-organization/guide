@@ -8,7 +8,7 @@ For an overview and usage instructions, please visit <https://maintenance-guidel
 
 ## What is this?
 
-You might have seen the deprecated message like **This project is no longer maintained**.
+You might have seen the deprecated message like "**This project is no longer maintained**".
 You can fork the project, but you can not publish the pacakge to registry like [npm](https://www.npmjs.com/) with the same name.
 Because, you have not the ownership of the project.
 
