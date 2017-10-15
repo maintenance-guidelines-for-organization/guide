@@ -1,4 +1,7 @@
 version: 1
 rules:
   - expected: GitHub
+    patterns:
+      - github
+      - Github
     prh: github should be GitHub
