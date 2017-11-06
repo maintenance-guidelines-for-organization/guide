@@ -14,7 +14,7 @@
 いくつかの行動については他のメンバーやコミュニティと適切であるかを話し合ったほうが良いかもしれません。その他については個人の決定を優先して良いでしょう。
 
 不適切な行動についてはプロジェクトチームの [[INSERT_EMAIL_ADDRESS]] に報告されるかもしれません。
-不適切な行動は [Code of Conduct](]]CODE_OF_CONDUCT_LINK]]) に定義されています。
+不適切な行動は [Code of Conduct][] に定義されています。
 
 すべての苦情は、レビュー、調査され、必要かつ適切と判断された対応がとられます。プロジェクトチームは、事象の報告者に関する守秘義務があります。
 
@@ -22,7 +22,7 @@
 
 メンテナーは自由に新しいメンバーを追加できます。
 
-[Code of Conduct](]]CODE_OF_CONDUCT_LINK]])に同意でき、プロジェクトに関心がある信用できる人を見つけた場合、次の手順でプロジェクトのメンバーに追加できます。
+[Code of Conduct][] に同意でき、プロジェクトに関心がある信用できる人を見つけた場合、次の手順でプロジェクトのメンバーに追加できます。
 
 ### GitHub
 
@@ -79,3 +79,5 @@ npm access grant read-write [[NPM_ORGANIZATION_NAME]]:developers $PKGNAME
 このガイドラインは [Maintenance Guidelines for Organization](https://maintenance-guidelines-for-organization.github.io/) に基づいています。
 
 このガイドラインは Creative Commons Attribution 4.0 International Public License([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)) のライセンスで利用できます。
+
+[Code of Conduct]: [[CODE_OF_CONDUCT_LINK]]
