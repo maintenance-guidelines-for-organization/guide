@@ -14,7 +14,7 @@
 いくつかの行動については他のメンバーやコミュニティと適切であるかを話し合ったほうが良いかもしれません。その他については個人の決定を優先して良いでしょう。
 
 不適切な行動についてはプロジェクトチームの [[INSERT_EMAIL_ADDRESS]] に報告されるかもしれません。
-不適切な行動は [Code of Conduct](%5B%5BCODE_OF_CONDUCT_LINK%5D%5D) に定義されています。
+不適切な行動は [Code of Conduct](]]CODE_OF_CONDUCT_LINK]]) に定義されています。
 
 すべての苦情は、レビュー、調査され、必要かつ適切と判断された対応がとられます。プロジェクトチームは、事象の報告者に関する守秘義務があります。
 
@@ -22,11 +22,11 @@
 
 メンテナーは自由に新しいメンバーを追加できます。
 
-[Code of Conduct](%5B%5BCODE_OF_CONDUCT_LINK%5D%5D)に同意でき、プロジェクトに関心がある信用できる人を見つけた場合、次の手順でプロジェクトのメンバーに追加できます。
+[Code of Conduct](]]CODE_OF_CONDUCT_LINK]])に同意でき、プロジェクトに関心がある信用できる人を見つけた場合、次の手順でプロジェクトのメンバーに追加できます。
 
 ### GitHub
 
-1. [https://github.com/orgs/[[GITHUB_ORGANIZATION_NAME]]/people](https://github.com/orgs/%5B%5BGITHUB_ORGANIZATION_NAME%5D%5D/people) を開く
+1. [https://github.com/orgs/[[GITHUB_ORGANIZATION_NAME]]/people](https://github.com/orgs/[[GITHUB_ORGANIZATION_NAME]]/people) を開く
 2. **Invite member**をクリック
 3. 招待したいメンバーのユーザ名またはEmailを入力
 4. "**Owner**"を選択
@@ -36,7 +36,7 @@
 
 ### npm
 
-1. [https://www.npmjs.com/org/[[NPM_ORGANIZATION_NAME]]/members](https://www.npmjs.com/org/%5B%5BNPM_ORGANIZATION_NAME%5D%5D/members)を開く
+1. [https://www.npmjs.com/org/[[NPM_ORGANIZATION_NAME]]/members](https://www.npmjs.com/org/[[NPM_ORGANIZATION_NAME]]/members)を開く
 2. 招待したいメンバーのユーザ名またはEmailを入力
 3. "**Owner**"を選択
 4. **add member**をクリック
@@ -68,7 +68,7 @@ npm access grant read-write [[NPM_ORGANIZATION_NAME]]:developers $PKGNAME
 
 または次の操作でも移譲できます。
 
-1. [https://www.npmjs.com/org/[[NPM_ORGANIZATION_NAME]]/team/developers/add-package](https://www.npmjs.com/org/%5B%5BNPM_ORGANIZATION_NAME%5D%5D/team/developers/add-package) を開く
+1. [https://www.npmjs.com/org/[[NPM_ORGANIZATION_NAME]]/team/developers/add-package](https://www.npmjs.com/org/[[NPM_ORGANIZATION_NAME]]/team/developers/add-package) を開く
 2. "Populate from personal packages"の選択肢から移譲したいパッケージ名を選択
 3. **make it so** をクリック
 
