@@ -42,7 +42,7 @@ For more infromation, see [Inviting users to join your organization - User Docum
 3. Set the radio button to "**Owner**"
 4. Click **add member**
 
-For more infromation, see [Managing Members · npm Orgs Documentation](https://www.npmjs.com/docs/orgs/managing-members.html)
+For more infromation, see [Managing Members · npm Orgs Documentation](https://docs.npmjs.com/orgs/managing-org-members)
 
 ## For new member
 
@@ -73,7 +73,7 @@ OR
 2. Select your package name in "Populate from personal packages"
 3. Click **make it so** button
 
-For more infromation, see [Managing Package Access · npm Orgs Documentation](https://www.npmjs.com/docs/orgs/managing-package-access.html)
+For more infromation, see [Managing Package Access · npm Orgs Documentation](https://docs.npmjs.com/managing-team-access-to-org-packages)
 
 ## Attribution
 
