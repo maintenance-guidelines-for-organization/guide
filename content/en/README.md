@@ -37,7 +37,7 @@ For more infromation, see [Inviting users to join your organization - User Docum
 
 ### npm
 
-1. Visit <https://www.npmjs.com/org/[[NPM_ORGANIZATION_NAME]]/members>
+1. Visit <https://www.npmjs.com/settings/[[NPM_ORGANIZATION_NAME]]/members>
 2. Type the username or email address of the person you want to invite
 3. Set the radio button to "**Owner**"
 4. Click **add member**
@@ -69,11 +69,11 @@ npm access grant read-write [[NPM_ORGANIZATION_NAME]]:developers $PKGNAME
 
 OR
 
-1. Visit <https://www.npmjs.com/org/[[NPM_ORGANIZATION_NAME]]/team/developers/add-package>
-2. Select your package name in "Populate from personal packages"
-3. Click **make it so** button
+1. Visit <https://www.npmjs.com/settings/[[NPM_ORGANIZATION_NAME]]/teams/team/developers/access>
+2. Input your package name to "Package" 
+3. Click "Add Existing Packages"
 
-For more infromation, see [Managing Package Access · npm Orgs Documentation](https://docs.npmjs.com/managing-team-access-to-org-packages)
+For more infromation, see [Managing Package Access · npm Orgs Documentation](https://npm.github.io/orgs-docs/managing-package-access.html).
 
 ## Attribution
 

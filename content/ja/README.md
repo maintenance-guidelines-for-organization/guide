@@ -36,7 +36,7 @@
 
 ### npm
 
-1. [https://www.npmjs.com/org/[[NPM_ORGANIZATION_NAME]]/members](https://www.npmjs.com/org/[[NPM_ORGANIZATION_NAME]]/members)を開く
+1. [https://www.npmjs.com/settings/[[NPM_ORGANIZATION_NAME]]/members](https://www.npmjs.com/settings/[[NPM_ORGANIZATION_NAME]]/members)を開く
 2. 招待したいメンバーのユーザ名またはEmailを入力
 3. "**Owner**"を選択
 4. **add member**をクリック
@@ -66,13 +66,15 @@ Organizationへパッケージを追加するには、次の手順で追加で�
 npm access grant read-write [[NPM_ORGANIZATION_NAME]]:developers $PKGNAME
 ```
 
-または次の操作でも移譲できます。
+またはウェブ上でもパッケージの移譲が可能です。
 
-1. [https://www.npmjs.com/org/[[NPM_ORGANIZATION_NAME]]/team/developers/add-package](https://www.npmjs.com/org/[[NPM_ORGANIZATION_NAME]]/team/developers/add-package) を開く
-2. "Populate from personal packages"の選択肢から移譲したいパッケージ名を選択
-3. **make it so** をクリック
+1. <https://www.npmjs.com/settings/[[NPM_ORGANIZATION_NAME]]/teams/team/developers/access> を開く
+2. "Package" に 移譲したいパッケージ名を入力
+3. "Add Existing Packages"をクリックして移譲
 
-詳細は [Managing Package Access · npm Orgs Documentation](https://www.npmjs.com/docs/orgs/managing-package-access.html) を参照してください。
+詳細は次のページを参照してください。
+
+- [Managing Package Access · npm Orgs Documentation](https://npm.github.io/orgs-docs/managing-package-access.html)
 
 ## Attribution
 
